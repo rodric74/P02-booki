@@ -353,6 +353,7 @@ margin-left: 5%;
 }
 
 .popular_element {
+  display: flex;
   width: 420px;
   height: 625px;
   background-color: #F2F2F2;
@@ -378,4 +379,27 @@ a{
   flex-direction: column;
   margin-left: 7px;
   font-size: 13px;
+}
+
+/* partie activité  */
+
+#activity{
+  margin-top: 180px;
+}
+
+.activity_Marseille{
+  /* margin-left: 3%; */
+  font-size: 22px;
+}
+
+.activity_list{
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  font-size: small;
+  border-radius: 25px;
+}
+
+.a.column img {
+  border-radius: 20px;
 }
