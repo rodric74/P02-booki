@@ -342,17 +342,39 @@ font-size: 22px;
 
 /* Section Populaire  */
 
-.title_popular{
-  margin-left: 2%s;
+.popular_element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
 }
 
-#popular_title_icon{
+.title_popular{
+  display: flex;
+  font-size: 22px;
+}
+
+#popular_title_icon {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.popular_accomodation {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  
+}
+
 .card {
+  display: flex;
   height: 157px;
   background-color: white;
   padding: 3.6px;
@@ -360,42 +382,41 @@ font-size: 22px;
   box-shadow: 1px 2px 11px 0px #00000063;
 }
 
+.card-title{
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
 .card_img{
   width: 137px;
-  height: 144px;
-  object-fit: cover;
-  display: inline;
+  height: 134px;
+  /* object-fit: cover;
+  display: inline; */
   border-radius: 20px 0px 0px 20px;
 }
 
-.popular_element {
-  display: flex;
-  width: 420px;
-  height: 625px;
-  background-color: #F2F2F2;
-  border-radius: 15px;
-  padding: 0 10px 0;
-  height: 599px;
-}
-
-.stars_popular {
-  display: flex;
-  margin-top: 137px;
-  position: absolute;
-}
-
-a{
-  text-decoration: none;
-}
-
 .popular_card_info{
-  color: black;
-  font-weight: bold;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  /* font-weight: bold; */
   margin-left: 7px;
   font-size: 13px;
 }
+
+
+.stars_popular {
+  /* display: flex; */
+  /* margin-top: 137px; */
+  /* position: absolute; */
+}
+
+.greystar {
+  color: #deebff;
+}
+
+
+
 
 /* partie activité  */
 
