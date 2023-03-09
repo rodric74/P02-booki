@@ -220,6 +220,12 @@ h1{
   display:flex;
 }
 
+/* main section hebergement et populaire*/
+
+.accomodation_popular {
+  display: flex;
+}
+
 /* <!-- Section Hebergement --> */
 
 .section_accomodation{
