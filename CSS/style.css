@@ -397,6 +397,9 @@ font-size: 22px;
   padding-left: 15px;
 }
 
+.devise{
+  font-weight: bold;
+}
 .stars_popular {
   display: flex;
 }
