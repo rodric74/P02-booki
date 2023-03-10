@@ -297,10 +297,10 @@ font-size: 22px;
 #Gray_star{
   margin-top: 9px;
   font-size: small;
-  color: #F2F2F2;
+  color: #7d2f2f;
 }
 .price{
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .stars_blue{
@@ -308,17 +308,17 @@ font-size: 22px;
 }
 
 .accomodation_cards_text p{
-  margin-left: 1px;
+  margin-left: 5px;
 }
 
-.afficher{
+/* .afficher{
   
   font-size: 18px;
   font-weight: bold;
   color: black;
-  /* margin-left: 6%;
-  margin-top: -12px; */
-}
+  margin-left: 6%;
+  margin-top: -12px;
+} */
 
 
 
@@ -375,14 +375,18 @@ font-size: 22px;
 .card-title{
   margin-top: 10px;
   margin-bottom: 4px;
+  font-size: 16px;
 }
 
 .card_img{
   width: 137px;
   height: 134px;
-  /* object-fit: cover;
-  display: inline; */
   border-radius: 20px 0px 0px 20px;
+}
+
+.popular_text{
+  font-size: 16px;
+  margin: Opx;
 }
 
 .popular_card_info{
@@ -393,7 +397,6 @@ font-size: 22px;
   padding-left: 15px;
 }
 
-
 .stars_popular {
   display: flex;
 }
@@ -401,11 +404,9 @@ font-size: 22px;
 .fa-star {
   color: #0065fc;
 }
-.greystar {
+.graystar {
   color: #deebff;
 }
-
-
 
 
 /* partie activité  */
