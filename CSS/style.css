@@ -27,27 +27,22 @@ header {
 
 .logo {
   width: 61.09px;
-  height: 19px;
-  
- 
+  height: 19px; 
 }
 
 .logo img {
   max-width: 100%;
-  
 }
 
 nav {
  
   display: flex;
   justify-content: space-between;
-
 }
 
 nav ul {
   display: flex;
   align-items: center;
-  /* margin-left: 77px; */
 }
 
 nav li {
@@ -92,7 +87,6 @@ nav a {
 
 h1{
   color: black;
-  display: flex;
   font-size: 22px;
   padding-top: 63px;
 }
@@ -101,7 +95,6 @@ h1{
   color: black;
   font-size: 16px;
   padding-bottom: 20px;
-  
 }
 
 /* Séction du bouton de recherche  */
@@ -109,7 +102,6 @@ h1{
 .search{
   display: flex;
   height: 50px;
-  
 }
 
 #icon{
@@ -134,8 +126,8 @@ h1{
   font-size: 18px;
   padding-left: 17px;
   font-weight: bold;
-  
 }
+
 /* Styliser le placeolder   */
 .search_input::placeholder{
   color: black;
@@ -150,7 +142,6 @@ h1{
   font-size: 18px;
   font-weight: 700;
   text-align: center;
-
 }
 
 /* Section Filtre  */
@@ -159,14 +150,10 @@ h1{
   display: flex;
   flex-direction: row;
   padding-top: 46px;
-  /* align-items: center; */
- 
-  
 }
 
 .search_filter h2{
   font-size: 18px;
-  /* display: flex; */
 }
 
 .search_filter ul{
@@ -238,6 +225,7 @@ h1{
 
 .section_acco_part1{
   display: flex;
+  flex-direction: column;
   width: 880px;
   height: 625px;
   border-radius: 20px;
@@ -246,23 +234,17 @@ h1{
 }
 
 .title_acco{
-/* margin-left: 5%; */
-/* padding-top: 25px; */
+
+padding-top: 25px;
 padding-left: 40px;
 padding-bottom: 15px;
 font-size: 22px;
 
 }
 
-.section_1{
-  width: 68%;
-  height: 600px;
-  border-radius: 25px;
-}
-
 #section_1_accomodation{
   
-  height: 85%;
+  height: 880px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -276,45 +258,34 @@ font-size: 22px;
   width: 246px;
   border-radius: 20px;
   box-shadow: 4px 1px 20px 0px rgba(0, 0, 0, 0.42);
-  display: inline;
 
 }
 
 .accomodation_cards_text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  
 }
 
 .accomodation_cards img{
-  width: 99%;
+  align-items: center;
+  width: 98%;
   height: 124px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 
-#section_1_accomodation a{
-  display: contents;
-}
 
 .accomodation_cards p{
   color: black;
   font-size: 11px;
+ 
 }
 
-.accomodation_title_h3 {
-  color: black;
-}
-
-.section_text {
-  height: 49%;
-  padding-left: 13%;
-  margin-top: -14px;
-  color: black;
-
-}
 
 .accomodation_cards_text h3{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .stars{
@@ -326,18 +297,14 @@ font-size: 22px;
 #Gray_star{
   margin-top: 9px;
   font-size: small;
-  color: #dcdbdb;
+  color: #F2F2F2;
 }
 .price{
-  font-weight: initial;
+  font-size: 25px;
 }
 
 .stars_blue{
   color: #0065fc;
-}
-
-.stars_grey{
-  color: red;
 }
 
 .accomodation_cards_text p{
@@ -345,12 +312,12 @@ font-size: 22px;
 }
 
 .afficher{
-  display: flex;
-  font-size: 15px;
+  
+  font-size: 18px;
   font-weight: bold;
   color: black;
-  margin-left: 6%;
-  margin-top: -12px;
+  /* margin-left: 6%;
+  margin-top: -12px; */
 }
 
 
