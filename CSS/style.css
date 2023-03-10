@@ -237,6 +237,7 @@ h1{
 }
 
 .section_acco_part1{
+  display: flex;
   width: 880px;
   height: 625px;
   border-radius: 20px;
@@ -277,6 +278,11 @@ font-size: 22px;
   box-shadow: 4px 1px 20px 0px rgba(0, 0, 0, 0.42);
   display: inline;
 
+}
+
+.accomodation_cards_text {
+  display: flex;
+  flex-direction: column;
 }
 
 .accomodation_cards img{
