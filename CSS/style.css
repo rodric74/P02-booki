@@ -560,12 +560,27 @@ a {
     .card_popular_implementation{
       width: 880px;
       height: 278px;
+      margin-top: 40px;
      
     }
 
     .card_popu_space{
       flex-direction: row;
       height: 625px;
+    }
 
-  
+    .title_popular {
+      
+      justify-content:space-between;
+      padding-right: 40px;
+      padding-left: 40px;
+      
+    }
+
+    .card_popular {
+      
+      width: 252px;
+      height: 144px;
+      
+    }
 }
