@@ -2,20 +2,21 @@
 
 * {
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
   }
 
 body {
   display: flex;
   justify-content: center;
-  font-family: "Raleway", sans-serif;
-  margin: 0px;
-  padding: 0px;
+  
+  
 }
 
 .container {
   max-width: 1400px;
   width: 100%; 
-  margin: 0 44px 0 55px;
+  /* margin: 0 44px 0 55px; */
+  padding-left: 50px;
 }
 
 header {
@@ -440,8 +441,8 @@ border-radius: 20px 0 0 20px;
 /* Section Activité à Marseille  */
 
 .marseille_activity{
-  width: 1400px;
-  height: 500px;
+  width: 100%;
+  /* height: 500px; */
   margin-top: 60px;
   margin-bottom: 60px;
   /* background-color: #fcd4f4c7; */
@@ -462,7 +463,7 @@ border-radius: 20px 0 0 20px;
   flex-direction: column;
   align-content: space-between;
   width: 302px;
-  height: 445px;
+  height: auto;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -470,6 +471,7 @@ border-radius: 20px 0 0 20px;
 
 .img_activity{
   width:302px ;
+  max-width: 100%;
   height: 90%;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
@@ -495,8 +497,8 @@ footer {
 
 .footer_implementation{
   
-  width: 97%;
-  height: 97%;
+  max-width: 100%;
+  height:auto;
 }
 
 .footer-container {
@@ -505,7 +507,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
-  max-width: 1339px;
+  max-width: 100%;
   padding-left: 70px;
   padding-top: 60px ;
 }
@@ -553,7 +555,7 @@ a {
   }
 
   .Accomo_Pop_Fullstack{
-    display: flex;
+    
     flex-direction: column;
     justify-content: space-between;}
 
