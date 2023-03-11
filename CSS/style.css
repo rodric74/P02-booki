@@ -344,7 +344,7 @@ h1{
   justify-content: space-between;
 }
 
-.card_popular_implementation{
+/* .card_popular_implementation{
   width: 880px;
   height: 625px;
   border-radius: 20px;
@@ -352,7 +352,7 @@ h1{
   padding: 10px;
   display: flex;
   flex-direction: column;
-}
+} */
 
 
   .title_popular {
@@ -543,4 +543,29 @@ li{
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Partie Responsive  */
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: red;
+  }
+
+  .Accomo_Pop_Fullstack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+    .card_popular_implementation{
+      width: 880px;
+      height: 278px;
+     
+    }
+
+    .card_popu_space{
+      flex-direction: row;
+      height: 625px;
+
+  
 }
