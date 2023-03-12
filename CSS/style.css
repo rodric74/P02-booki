@@ -145,6 +145,18 @@ h1{
   text-align: center;
 }
 
+.search_loupe{
+ border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #0065fc;
+  width: 49px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
 /* Section Filtre  */
 
 .search_filter{
@@ -344,15 +356,7 @@ h1{
   justify-content: space-between;
 }
 
-/* .card_popular_implementation{
-  width: 880px;
-  height: 625px;
-  border-radius: 20px;
-  background-color: #F2F2F2;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-} */
+
 
 
   .title_popular {
@@ -547,31 +551,15 @@ a {
 
 /* Partie Responsive  */
 
+@media screen and (min-width: 769px) {
+
+  .search_loupe{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 992px) {
-  body {
-    /* background-color: red; */
-  }
-
-  header {
-    margin-left: 77px;
-  }
-
-  .searchtool{
-    margin-left: 77px;
-  }
-
-  .search_filter{
-    margin-left: 77px;
-    max-width: 70%;
-  }
-
-  .information{
-    margin-left: 77px;
-  }
-
-  .accommodation_text{
-    margin-left: 77px;
-  }
+ 
   .Accomo_Pop_Fullstack{
     display: flex;
     flex-direction: column;
@@ -614,12 +602,102 @@ a {
     .card_activity{
       width: 182px;
       height: 267px;
-      position: relative;
+      
     }
     .img_activity{
-      position: relative;
-      object-fit:inherit;
+      
+      object-fit:cover;
       max-width: 182px;
       height: 240px;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+  
+
+  .search_button{
+    display: none;
+  }
+
+  header{
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation1:hover {
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+  }
+  
+  .navigation2:hover{
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+
+  }
+
+  .accomodation_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchtool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .search_filter{
+    padding-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
+  .Accomo_Pop_Fullstack{
+    flex-direction: column-reverse;
+    
+    ;
+  }
+
+   .card_popular_implementation{
+    
+    background-color: white;
+    flex-direction: column;
+
+   }
+
+
+   .
+
+
+   footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    
+   }
+
+   .footer_implementation{
+    display: flex;
+    flex-direction: column;
+
+   }
+
+   .footer_implementation{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+
+   .footer-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+   }
+}
+
