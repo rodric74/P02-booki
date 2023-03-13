@@ -263,14 +263,15 @@ h1{
   font-size: 14px;
 }
 
-/* Debut div Hebergement  */
+/* Debut  Hebergement  */
 
- .accomodation_element{
+ /* .accomodation_element{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 880px;
-}
+} */
+
 .card_accomodation_implementation{
   width: 880px;
   height: 625px;
@@ -283,9 +284,13 @@ h1{
   flex-direction: column;
 }
 
+.title_accomodation{
+  border: ;
+}
+
 .title_acco_style{
   font-size: 22px;
-  padding-left: 40px;
+  padding-left: 10px;
   
 }
 
@@ -299,7 +304,8 @@ h1{
 
 .title_acco_more_style{
   font-size: 18px;
-  padding-left: 40px;
+  padding-left: 10px;
+  margin-bottom: 40px;
   
 
 }
@@ -344,11 +350,11 @@ h1{
   
       /* Fin Carte Hebergement */
 
-/* Fin div hebergement  */
+/* Fin  hebergement  */
 
 
 
-/* Debut div Populaire  */
+/* Debut  Populaire  */
 
   .popular_element{
   display: flex;
@@ -598,11 +604,15 @@ a {
       
     }
 
-    .card_popular {
+    .popular {
       
       width: 252px;
       height: 144px;
       
+    }
+
+    .texte{
+
     }
 
     .marseille_activity{
@@ -617,13 +627,13 @@ a {
     }
     .img_activity{
       
-      object-fit:cover;
+      /* object-fit:cover; */
       max-width: 182px;
       height: 240px;
     }
 }
 
-/* RESPONSIVE MOBILE  */
+/* -----------RESPONSIVE MOBILE--------------  */
 
 
 @media screen and (min-width: 769px) {
