@@ -39,7 +39,7 @@ nav {
  
   display: flex;
   justify-content: space-between;
-}
+} 
 
 nav ul {
   display: flex;
@@ -157,7 +157,7 @@ h1{
 
 }
 
-/* div filtre  */
+/* Section filtre  */
 
 .search_filter{
   display: flex;
@@ -169,7 +169,6 @@ h1{
 .search_filter ul{
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   padding: 20px;
 }
 .search_filter h2{
@@ -447,7 +446,7 @@ border-radius: 20px 0 0 20px;
 /* div Activité à Marseille */
 
 .marseille_activity {
-  max-width: 1400px;
+  max-width: 1339px;
   height: auto;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -615,20 +614,22 @@ a {
     }
 
     .img_popular{
-      width: 106px;
+      width: 107px;
       height: 99%;
       object-fit: cover;
       border: 5px solid white;
       border-radius: 20px 0 0 20px;
       } 
 
-    .texte{
-
-    }
+    
 
     .marseille_activity{
       width: 880px;
       height: auto;
+    }
+
+    .marseille_activity h2{
+      padding: 10px;
     }
 
     .card_activity{
@@ -643,8 +644,9 @@ a {
       height: 240px;
     }
 }
-
+/* _________________________________________________ */
 /* -----------RESPONSIVE MOBILE--------------  */
+/* _________________________________________________ */
 
 
 @media screen and (min-width: 769px) {
@@ -653,19 +655,71 @@ a {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
 
-  
+@media screen and (max-width: 768px) {
 
   .search_button{
     display: none;
   }
+  
+body{
+  /* background-color: red; */
+  }
+
+/* .container{
+  max-width: 768px;
+  width: 100%;
+} */
 
   header{
-    padding-top: 20px;
+    width: 100%;
+   
+    /* background-color: rgba(49, 207, 49, 0.2); */
+    display: flex;
     flex-direction: column;
     align-items: center;
+   }
+
+
+   .logo{
+    margin-top: 10px;
+   }
+
+   nav li {
+    margin-left: 0;
   }
+  .navigation{
+    width: 375px;
+  }
+  
+  .navigation ul{
+   width: 100%;
+   padding-left: 10px;
+    display: flex;
+    /* background-color: rgb(101, 165, 222); */
+   }
+  
+  .navigation1 {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: bisque; */
+    align-items: none;
+    padding-bottom: 10px;
+  }
+  
+  .navigation2 {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: beige; */
+    align-items: none;
+    padding-bottom: 10px;
+
+  }
+
   .navigation1:hover {
     border-top: none;
     border-bottom: 3px #0065fc solid;
@@ -674,26 +728,55 @@ a {
   .navigation2:hover{
     border-top: none;
     border-bottom: 3px #0065fc solid;
+  }
 
+  .first_words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 375px; */
+    height: 150px;
+  }
+
+  h1{
+    padding-top: 10px;
   }
 
   .accomodation_text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
+    width: 298px;
+  }
+
+  .accomodation_text h1{
+    font-size: 22px;
+  }
+
+  #downtown{
+    color: black;
+    font-size: 16px;
+    padding-bottom: 0;
+    
   }
 
   .searchtool{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
   
+  }
+
+  .search_input{
+    width: 250px;
   }
 
 
   .search_filter{
     
     flex-direction: column;
+    align-items: center;
     align-items: start;
     margin-top: 0;
     
@@ -707,9 +790,9 @@ a {
   }
 
   .search_filter li{
-    width: 49%;
-    margin: 15px auto auto auto auto;
-    padding: 15px 0 15px 12px;
+    width: 50%%;
+    /*margin: 15px auto auto auto auto;
+    padding: 15px 0 15px 12px; */
   }
  
   /* Responsive Main Accomodation & Populat  */
@@ -789,7 +872,7 @@ a {
 
    /* Responsive Activity */
 
-   .marseille_activity{
+   .marseille_activity{z
     
    
     /* margin-top: 60px;
