@@ -586,7 +586,7 @@ a {
 
     .card_popular_implementation{
       width: 880px;
-      height: 278px;
+      max-height: 278px;
       margin-top: 40px;
      
     }
@@ -613,6 +613,14 @@ a {
       height: 144px;
       
     }
+
+    .img_popular{
+      width: 106px;
+      height: 99%;
+      object-fit: cover;
+      border: 5px solid white;
+      border-radius: 20px 0 0 20px;
+      } 
 
     .texte{
 
