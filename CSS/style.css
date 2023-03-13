@@ -157,7 +157,7 @@ h1{
 
 }
 
-/* Section filtre  */
+/* div filtre  */
 
 .search_filter{
   display: flex;
@@ -263,7 +263,7 @@ h1{
   font-size: 14px;
 }
 
-/* Debut Section Hebergement  */
+/* Debut div Hebergement  */
 
  .accomodation_element{
   display: flex;
@@ -344,11 +344,11 @@ h1{
   
       /* Fin Carte Hebergement */
 
-/* Fin section hebergement  */
+/* Fin div hebergement  */
 
 
 
-/* Debut section Populaire  */
+/* Debut div Populaire  */
 
   .popular_element{
   display: flex;
@@ -436,9 +436,9 @@ border-radius: 20px 0 0 20px;
     /* Fin Carte Populaire  */
 
   
-/* Fin section Populaire  */
+/* Fin div Populaire  */
 
-/* Section Activité à Marseille */
+/* div Activité à Marseille */
 
 .marseille_activity {
   max-width: 1400px;
@@ -494,7 +494,7 @@ border-radius: 20px 0 0 20px;
   font-weight: bold;
 }
 
-/* Fin Section Activité à Marseille */
+/* Fin div Activité à Marseille */
 
 
 /* Partie FOOTER  */
@@ -558,16 +558,18 @@ a {
   color: black;
 }
 
-/* Partie Responsive  */
+/* Partie Responsive   */
 
-@media screen and (min-width: 769px) {
 
-  .search_loupe{
-    display: none;
-  }
-}
 
 @media screen and (max-width: 992px) {
+
+  .search_filter li{
+    
+    
+    margin-right: 0;
+  }
+  
  
   .Accomo_Pop_Fullstack{
     display: flex;
@@ -622,6 +624,14 @@ a {
 }
 
 /* RESPONSIVE MOBILE  */
+
+
+@media screen and (min-width: 769px) {
+
+  .search_loupe{
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
 
   
