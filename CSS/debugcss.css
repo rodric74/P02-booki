@@ -6,7 +6,9 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-family: "Raleway", sans-serif;
   margin: 0px;
   padding: 0px;
@@ -115,3 +117,244 @@ body {
 }
 
 /* FIIIIIINNNN SEEEEAAAAARCHHHH FILLLLLLLTER */
+
+/* DEBUGGG FUUUUL STAAAACK HEBERGEMENT ET POPULAIRE */
+.Accomo_Pop_Fullstack{
+  display: flex;
+
+}
+
+/* DEBUUUUUG PARTIIIIIE HEEEEBERGEEEEEMENT */
+
+/* Debut  Hebergement  */
+
+ /* .accomodation_element{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 880px;
+} */
+
+.card_accomodation_implementation{
+  width: 420px;
+  height: 1500px;
+  border-radius: 0px;
+ 
+  background-color: #4cd665;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title_acco_style{
+  font-size: 22px;
+  padding-left: 0px;
+  
+}
+
+.card_acco_space{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 335px;
+  height: 1500px;
+}
+
+.title_acco_more_style{
+  display: none;
+
+}
+
+      /* Carte Hebergement  */
+
+
+.hebergement {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .card_hebergement {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 334px;
+    height: 199px;
+    border-radius: 20px;
+    background-color: white;
+    /* avec overflow je cache le text_accomodation qui déborde de ma carte  */
+    overflow: hidden;
+  }
+  
+.text_accomodation {
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 75px;
+
+}
+
+.text_accomodation h4, .text_accomodation p {
+  margin: 1px;
+}
+  
+  .img_Hebergement {
+    width: 100%;
+    height: 124px;
+    border: 5px solid white;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    
+  }
+  
+  
+
+
+/* DEBUUUUUG PARTIIIIIIE POPULAIIIIIIRE */
+
+
+/* En commun sur Hebergement et populaire  */
+
+.Accomo_Pop_Fullstack{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Les étoiles vagabondes  */
+
+.fa-star {
+  color: #0065FC;
+  font-size: 12px;
+
+}
+.gray_star{
+  color: #F2F2F2;
+}
+
+/* Gestion text_popular des cartes */
+
+.text_popular {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 144px;
+}
+
+.text_popular h4,
+.text_popular p {
+  margin: 0;
+}
+
+.text_popular h4 {
+  font-weight: 700;
+  font-size: 16px;
+  
+  
+}
+
+.text_popular p {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+/* Debut  Populaire  */
+
+.popular_element{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+  .title_popular {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .fa-chart-line{
+    color: #0065FC;
+  }
+
+
+ .card_popular_implementation{
+    width: 420px;
+    height: 625px;
+    border-radius: 0;
+    background-color: #F2F2F2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+ }
+ 
+ .title_popu_style{
+  font-size: 22px;
+ }
+
+ .card_popu_space{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 625px;
+}
+
+
+
+    /* Carte Populaire */
+
+.popular {
+  width: 334px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.card_popular {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 343px;
+  height: 144px;
+  border-radius: 20px;
+  background-color: white;
+
+}
+
+.img_popular{
+width: 137px;
+height: 99%;
+object-fit: cover;
+border: 5px solid white;
+border-radius: 20px 0 0 20px;
+}
+
+.text_nostar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+
+  
+}
+
+
+    /* Fin Carte Populaire  */
