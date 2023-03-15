@@ -537,7 +537,7 @@ footer {
   height: 97%;
 }
 
-.footer-container {
+.footer_container {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -548,12 +548,12 @@ footer {
   padding-top: 60px ;
 }
 
-.list-container {
+.list_footer {
   flex: 1;
   margin-right: 30px;
 }
 
-.list-container:last-child {
+.list_footer:last-child {
   margin-right: 0;
 }
 
@@ -1246,27 +1246,28 @@ border-radius: 20px 0 0 20px;
    footer{
     width: 100%;
     height: auto;
-    display: flex;
-
     
    }
 
    .footer_implementation{
     display: flex;
     flex-direction: column;
-
-   }
-
-   .footer_implementation{
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    padding: 30px 0 0 30px;
+    
    }
 
-   .footer-container{
+   .footer_container{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 70%;
+    height: auto;
+   
 
+   }
+
+   .list_footer {
+    /* padding-left: 25px; */
    }
 }
