@@ -997,16 +997,16 @@ body{
 /* DEBUUUUUG PARTIIIIIE HEEEEBERGEEEEEMENT */
 
 .card_accomodation_implementation{
+  /* background-color: #4cd665; */
   width: 420px;
   height: 1500px;
   border-radius: 0px;
   background-color: white;
- 
-  /* background-color: #4cd665; */
-
+  padding-left: 20px;
+  padding-right: 0px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 
@@ -1267,7 +1267,5 @@ border-radius: 20px 0 0 20px;
 
    }
 
-   .list_footer {
-    /* padding-left: 25px; */
-   }
+  
 }
