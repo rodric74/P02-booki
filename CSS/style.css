@@ -274,9 +274,7 @@ h1{
   flex-direction: column;
 }
 
-.title_accomodation{
-  border: ;
-}
+
 
 .title_acco_style{
   font-size: 22px;
@@ -761,7 +759,7 @@ a {
 .footer{
  
   width: 880px;
-  height: 22auto5px;
+  height: 22px;
 }
 
 .footer_implementation{
