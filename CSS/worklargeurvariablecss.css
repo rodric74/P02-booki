@@ -1,0 +1,78 @@
+/* l'étoile donne du style à tous les élémements  */
+
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+body{
+    background: bisque;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+main {
+    /* on met width: en %  pour avoir une largeur variable */
+    width: 90%;
+    /* on évite de mettre heigh en % pour éviter les problemes  */
+    /* min-height: permet de donner une valeur mini de hauteur et augemmenter si beosin ; */
+    min-height: 500px;
+    background: rgb(255, 255, 255);
+    /* centrer la boite  */
+    margin: 0 auto;
+    border: 5px solid rgb(0, 234, 255);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 10px 20px 9px #39a0a3;
+    padding: 20px;
+}
+
+/* enlever le margin par defaut du h2 */
+h2 {
+    margin: 0;
+}
+
+.flexbox {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+
+    /* Flexbox sert à repartir équitablement des éléments sur la page  */
+}
+
+.flexbox ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.hebergement {
+    list-style: none;
+    height: 160px;
+    width: 65%;
+    margin: 10px;
+    background: green;
+    /* centrer un unique élément vertic/horiz  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.populaire {
+    list-style: none;
+    height: 160px;
+    width: 35%;
+    margin: 10px;
+    background: yellow;
+    /* centrer un unique élément vertic/horiz  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
