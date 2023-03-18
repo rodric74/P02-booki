@@ -105,6 +105,7 @@ h1{
 .search{
   display: flex;
   height: 50px;
+  
 }
 
 #icon{
@@ -621,7 +622,10 @@ a {
 
 @media screen and (max-width: 768px) {
 
-
+.container{
+  padding: 0;
+  min-width: 375px;
+}
   .search_button{
     display: none;
   }
@@ -681,9 +685,13 @@ a {
 }
 
 
+.search_fullstack{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .searchtool {
- 
-  width: 100%;
+  
   display: flex;
   justify-content: center;
 }
@@ -731,28 +739,55 @@ a {
 
 .Accomo_Pop_Fullstack {
   flex-direction: column-reverse;
+  width: 100%;
 }
 
+.title_acco_style {
+  padding-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 0;
+}
 .card_accomodation_implementation {
-  background-color: red;
   border-radius: 0;
   margin-bottom: 0;
+  background-color: var(--backcolor-cards);
   width: 100%;
   height: auto;
+  padding: 0;
   
 }
 
 .card_acco_space {
   display: flex;
-  background-color: blue;
   flex-direction: column;
   flex-wrap: nowrap;
+  width: 100%;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card_hebergement {
+  width: 95%;
+  
+  
+}
+
+.title_acco_more_style{
+  display: none;
 }
 
 .card_popular_implementation {
   border-radius: 0;
   max-height: 625px;
+  padding-top: 25px;
+  padding-left: 20px;
+    padding-right: 20px;
 }
+
+.title_popular{
+  padding: 0 10px 0 11px;
+}  
+
 
 .card_popu_space {
   width: 100%;
@@ -765,17 +800,39 @@ a {
 }
 
 .marseille_activity {
-  background-color: yellow;
   flex-direction: column;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
   
 }
 
+.marseille_activity h2 {
+  padding-left: 10px;
+  width: 40%;
+  margin-bottom: 0;
+}
 
 .card_activity_implementation {
   flex-direction: column;
+  
+}
+
+.card_activity{
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+}
+
+.footer_container {
+  flex-direction: column;
+  padding: 45px 0 0 25px
 }
 
 }
