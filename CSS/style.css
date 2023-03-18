@@ -30,7 +30,6 @@
   }
   
  .container {
-    background: green;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
@@ -172,10 +171,10 @@ h1{
 
 .search_filter {
   display: flex;
-  margin-top: 25px;
+  margin-top: 20px;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: 920px;
+  width: 100%;
 }
 
 .search_filter ul {
@@ -213,7 +212,7 @@ h1{
 .information {
   display: flex;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 5px%;
   padding-bottom: 20px;
 
 }
@@ -390,9 +389,10 @@ border-radius: 20px 0 0 20px;
 .text_popular {
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
-  padding: 16px 0 0 15px;
-  height: 144px;
+  justify-content: space-around;
+  padding: 5% 0 0 3%;
+  width: 55%;
+  height: auto;
 }
 
 .text_popular h4,
@@ -403,6 +403,7 @@ border-radius: 20px 0 0 20px;
 .text_popular h4 {
   font-weight: 700;
   font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .text_popular p {
@@ -718,7 +719,7 @@ a {
 }
 
 .search_filter li {
-  font-size: 11px;
+  font-size: 16px;
   width: 48%;
   align-items: center;
   padding: 3%;
@@ -797,6 +798,12 @@ a {
 
 .card_popular {
   width: 100%;
+}
+
+.text_popular {
+  padding: 0% 2% 0% 2%;
+
+
 }
 
 .marseille_activity {
