@@ -31,7 +31,7 @@
   
  .container {
     background: green;
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     padding: 0 50px 0 50px;
@@ -308,7 +308,7 @@ h1{
 .text_accomodation {
   display: flex;
   flex-flow: column;
-  padding-left: 16px;
+  padding-left: 3%;
   padding-top: 4px;
   width: 100% ;
   height: auto;
