@@ -156,8 +156,6 @@ h1{
 .search_filter {
   display: flex;
   margin-top: 20px;
-  flex-wrap: wrap;
-  align-items: flex-start;
   width: 100%;
 }
 
@@ -175,9 +173,11 @@ h1{
 }
 
 .search_filter li{
+  display: flex;
+  align-items: center;
     font-size: 17px;
     font-weight: 700;
-    padding: 14px 20px 14px 20px;
+    padding: 10px 20px 10px 20px;
     border: 2px solid var(--color-border);
     border-radius: 25px;
 
@@ -430,16 +430,16 @@ border-radius: 20px 0 0 20px;
 
 .img_activity {
   width: 100%;
-  height: 90%;
+  height: 857=%;
   object-fit: cover;
-  object-position: center;
+  /* object-position: center; */
   border-radius: 20px 20px 0 0;
 }
 
 .card_activity p {
   font-size: 16px;
   padding-left: 19px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* -----------------SECTION FOOTER-----------------  */
@@ -522,23 +522,25 @@ a {
     padding: 0 50px 0 50px;
   }
 
-  .search_filter{
+  /* .search_filter{
     width: 100%;
     flex-wrap: nowrap;
-  }
+  } */
 
-  .search_filter ul{
+  /* .search_filter ul{
     width: 100%;
     justify-content: space-between;
-  }
+  } */
 
-  .search_filter li{
+  /* .search_filter li{
     display: flex;
+    align-items: center;
     padding: 2% 1% 2% 1%
   }
-  .search_filter h2{
+   */
+  /* .search_filter h2{
     width: 70px;
-  }
+  } */
 .Accomo_Pop_Fullstack {
   flex-direction: column;
 }
@@ -584,14 +586,14 @@ a {
 }
 
 
-.card_activity {
+/* .card_activity {
   width: 182px;
   height: 267px;
 }
 
 .img_activity {
   height: 198px;
-}
+} */
 
 }
 /* -----------------MEDIA QUIERIES 768 ----------------- */
