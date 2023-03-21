@@ -290,9 +290,9 @@ h1{
 
 .text_accomodation {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   padding-left: 3%;
-  padding-top: 4px;
+  padding: 3% 0 0 6%;
   width: 100% ;
   height: auto;
 }
@@ -374,7 +374,7 @@ border-radius: 20px 0 0 20px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  padding: 5% 0 0 3%;
+  padding: 2% 9% 0 3%;
   width: 60%;
   height: auto;
 }
@@ -392,7 +392,13 @@ border-radius: 20px 0 0 20px;
 
 .text_popular p {
   font-size: 14px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+}
+
+.stars {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* -----------------SECTION ACTIVITE A MARSEILLE----------------- */
