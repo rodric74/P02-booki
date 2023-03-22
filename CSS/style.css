@@ -718,13 +718,15 @@ footer {
 
     .title_popular{
       padding: 0;
-      width: 95%;
+      width: 100%;
+      padding: 0 20px 0 20px;
       
     }
 
     .card_popular_implementation {
         border-radius: 0;
         align-items: center;
+        padding-top: 0;
     }
 
     .card_popular_implementation{
