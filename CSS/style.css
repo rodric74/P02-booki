@@ -162,13 +162,13 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 840px;
+    width: 63%;
     justify-content: space-between;
 }
   
 .filter_text {
   font-size: 18px;
-  width: 65px;
+  padding-right: 25px;
 }
 
 .search_filter li{
@@ -235,10 +235,10 @@ h1{
 .stars {
   
   display: flex;
- font-size: 12px;
+  font-size: 12px;
   color: var(--main-color);
   font-size: ;
-  /* margin-top: auto; */
+  padding-bottom: 12px;
  
 }
 
@@ -249,7 +249,7 @@ h1{
 /* -----------------SECTION HEBERGEMENT----------------- */
 
 .card_accomodation_implementation {
-  width: 66%;
+  width: 65%;
   height: 625px;
   border-radius: 20px;
   background-color: #F2F2F2;
@@ -297,7 +297,7 @@ h1{
     padding-left: 6%;
     width: 100%;
     height: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .text_accomodation h4,
@@ -316,7 +316,7 @@ h1{
 
 .title_acco_more_style{
   font-size: 18px;
-  margin-top: 10px;
+  margin: 0;
 }
 
 /* -----------------SECTION POPUALIRE-----------------  */
@@ -335,7 +335,7 @@ h1{
 
 
  .card_popular_implementation{
-    width: 31.5%;
+    width: 31.3%;
     height: 625px;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -366,37 +366,45 @@ h1{
 }
 
 .img_popular{
-width: 40%;
-height: 99%;
-object-fit: cover;
-border: 5px solid white;
-border-radius: 20px 0 0 20px;
+  width: 40.7%;
+  height: auto;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 20px 0 0 20px;
 }
 
 .text_popular {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
-  padding: 0% 9% 0 3%;
+  justify-content:space-between;
+  padding-left: 4.5%;
   width: 60%;
   height: auto;
+  padding-top: 16px;
+
 }
 
-.text_nostar h4,
-.text_nostar p {
+.text_popular h4 {
   margin: 0;
 }
 
-.text_nostar h4 {
-  font-weight: 700;
-  font-size: 16px;
-  
+.starless {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: auto;
 }
 
-.text_nostar p {
-  font-size: 14px;
-  
+.starless h4 {
+  padding-bottom: 10px;
 }
+.starless p {
+  margin: 0;
+  font-size: 14px;
+
+}
+
+
 
 
 /* -----------------SECTION ACTIVITE A MARSEILLE----------------- */
@@ -426,7 +434,7 @@ border-radius: 20px 0 0 20px;
   flex-direction: column;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  width: 23%;
+  width: 23.2%;
   height: 445px;
   background-color: white;
   
