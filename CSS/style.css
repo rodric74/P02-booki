@@ -1,4 +1,4 @@
-/* --------------LES TRUCS EN COMMUN -------------- */
+/* --------------CLASSES EN COMMUN -------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
@@ -47,9 +47,7 @@
   .navigation {
     display: flex;
     align-items: center;
-    
-    
-    /* margin-right: 20px; */
+
   }
   
   .link_nav {
@@ -113,7 +111,6 @@ h1{
   font-weight: bold;
 }
 
-/* sous classe pour Styliser le placeolder   */
 .search_input::placeholder{
   color: black;
 }
@@ -162,7 +159,7 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 63%;
+    width: 815px;
     justify-content: space-between;
 }
   
@@ -404,9 +401,6 @@ h1{
 
 }
 
-
-
-
 /* -----------------SECTION ACTIVITE A MARSEILLE----------------- */
 
 .marseille_activity {
@@ -464,19 +458,10 @@ footer {
     height: 225px;
   }
   
-  .footer_implementation{
-  /*   
-    width: 97%;
-    height: 97%; */
-  }
-  
   .footer_container {
-    /* margin-top: 50px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 30px 0 0 30px; */
-    /* max-width: 1400px; */
     padding: 45px 0 0 70px;
     width: 95%;
    
@@ -529,7 +514,7 @@ footer {
         max-width: 992px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 50px 0 50px;
+        padding: 0 72px 0 72px;
 
     }
     .navigation {
@@ -537,8 +522,13 @@ footer {
       left: 47px;
     }
 
+    .search_filter ul {
+      width: 100%;
+    }
+
     .search_filter li{
         padding: 1.5% 2% 1.5% 2%;
+        
     }
 
     .Accomo_Pop_Fullstack {
