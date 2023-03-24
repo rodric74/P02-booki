@@ -462,12 +462,12 @@ margin-top: 20px;
   object-fit: cover;
   /* object-position: center; */
   border-radius: 20px 20px 0 0;
+  margin-bottom: 5%;
 }
 
 .card_activity p {
   font-size: 16px;
   padding-left: 19px;
-  padding-top: 2%;
   font-weight: 700;
 }
 
