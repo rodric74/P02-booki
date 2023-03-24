@@ -474,30 +474,30 @@ footer {
   .list_footer {
     flex: 1;
     margin-right: 30px;
+    height: auto;
   }
   
-  .footer h3 {
-    font-weight: bold;
-    margin-bottom: 10px;
+  .list_footer h3 {
+    padding-bottom: 20px;
   }
   
-  ul li {
+  .list_footer ul li {
     margin-bottom: 12px;
   }
   
-  ul {
+  .list_footer ul {
     list-style: none;
     margin: 0;
     padding: 0;
     font-size: 18px;
   }
   
-  li{
+  .list_footer li{
     font-size: 16px;
   }
   
   
-  a {
+  .list_footer a {
     text-decoration: none;
     color: black;
   }
