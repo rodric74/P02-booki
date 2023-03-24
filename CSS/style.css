@@ -59,12 +59,23 @@
     justify-content: space-around;
     padding-top: 48px;
     border-top: 3px solid transparent;
+    text-decoration: none;
+    
     position: relative
   }
   
   .link_nav:hover {
     border-top: 3px solid var(--main-color);
   
+  }
+
+  .navigation a{
+    color: black;
+    
+  }
+
+  .navigation a:hover{
+    color:var(--main-color)
   }
   
 
