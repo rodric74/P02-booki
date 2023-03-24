@@ -212,7 +212,7 @@ margin-top: 20px;
   display: flex;
   align-items: center;
   margin-bottom: 36px;
-  margin-top: 8px;
+  margin-top: 38px;
 
 }
 
@@ -725,6 +725,10 @@ footer {
        
     }
 
+    .filter_text {
+      margin-bottom: 15px;
+    }
+
     .search_filter ul {
         flex-wrap: wrap;
     }
@@ -733,6 +737,7 @@ footer {
         width: 47%;
         font-size: 11px;
         padding: 3% 3% 3% 3%;
+        margin: 15px 0 3px 0;
     }
 
     .Accomo_Pop_Fullstack {
@@ -755,6 +760,7 @@ footer {
     
     .card_hebergement {
         width: 100%;
+        margin-bottom: 12px;
     }
 
     .title_acco_more_style {
@@ -764,7 +770,8 @@ footer {
     .title_popular{
       padding: 0;
       width: 100%;
-      padding: 0 20px 0 20px;
+     
+      margin: 25px 0 25px 0;
       
     }
 
@@ -772,6 +779,7 @@ footer {
         border-radius: 0;
         align-items: center;
         padding-top: 0;
+        padding: 0 20px 0 20px;
     }
 
     .card_popular_implementation{
@@ -784,7 +792,7 @@ footer {
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding: 0 20px 0 20px;
+        
     }
 
     .card_popular {
@@ -794,7 +802,7 @@ footer {
     .marseille_activity {
         width: 100%;
         margin-top: 0;
-        margin-bottom: 10%;
+        margin-bottom: 5%%;
         padding: 0 20px 0 20px;
     }
    
@@ -808,9 +816,16 @@ footer {
 
     .card_activity {
         width: 100%;
+        height: auto;
         margin-bottom: 10%;
     }
 
+    .img_activity {
+      height: 134px;
+    }
+    .card_activity p{
+      margin: 0 0 20px 0;
+    }
     footer {
         width: 100%;
         height: auto;
@@ -825,6 +840,10 @@ footer {
 
         background-color: var(--background-color);
         margin: 0;
+    }
+
+    .list_footer {
+      margin-bottom: 6%;
     }
 
 
