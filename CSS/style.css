@@ -573,6 +573,7 @@ footer {
 
     .title_popular {
         justify-content: space-between;
+        margin-top: 0;
         /* padding: 0 35px 0 40px; */
       
     }
@@ -619,6 +620,9 @@ footer {
         height: 267px;
     }
 
+    .card_activity p{
+      margin-top: 7%;
+    }
     .img_activity {
         height: 198px;
     }
