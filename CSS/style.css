@@ -158,6 +158,7 @@ margin-top: 20px;
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  display: none;
 
 }
 
@@ -638,25 +639,15 @@ footer {
 
 /* ------------ A LOUPE STORY ------------ */
 
-@media screen and (min-width: 767px) {
-
-    .search_loupe {
-        display: none;
-    }
+@media screen and (max-width: 766px) {
+  .search_loupe {
+      display: inline-block;
   
-}
+    }
 
 
 /* -----------------MEDIA QUIERIES Mobiles ----------------- */
 
-/* @media screen and (min-width: 767px) {
-
-    .search_loupe{
-        display: none;
-    }
-    
-  }
-   */
   
   @media screen and (max-width: 767px) {
   
