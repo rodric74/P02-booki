@@ -639,7 +639,7 @@ footer {
 
 /* ------------ A LOUPE STORY ------------ */
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .search_loupe {
       display: inline-block;
   
