@@ -1,7 +1,5 @@
 # Projet de Développement Front-End : Page d'Accueil d'une Agence de Voyage
 
-![badge]([lien_vers_badge](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg))
-
 ## Table des Matières
 - [À Propos du Projet](#à-propos-du-projet)
 - [Mission et Contexte](#mission-et-contexte)
