@@ -30,7 +30,7 @@ Vous débutez votre alternance en tant que développeur web au sein de la start-
 ### 3. Installation d'un Environnement de Développement Front-End
 - **Validé** : Présentation du code dans Visual Studio Code.
 
-## 🎤 Soutenance (commentaires évaluateur):
+## 🎤 Soutenance (évaluateur: Alexandre Kouam):
 Rodric a réalisé un bon travail et une belle soutenance, avec un support de présentation riche et détaillé. Il a été éloquent et explicite dans ses propos, et a bien répondu aux questions. Il a été attentif durant le debriefing.
 
 ## 🌟 Points Forts
