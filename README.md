@@ -12,6 +12,8 @@
 ## 📖 À Propos du Projet
 Ce projet a été réalisé dans le cadre d'une évaluation de compétences en développement front-end. Il implémente une interface responsive avec HTML et CSS, conforme à une maquette donnée, et utilise Visual Studio Code comme environnement de développement.
 
+https://rodric74.github.io/P02-booki/
+
 ## 🚀 Mission et Contexte
 Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. L'entreprise souhaite développer un site Internet permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS, en collaboration avec la CTO, Sarah, et l'UI designer, Loïc.
 
